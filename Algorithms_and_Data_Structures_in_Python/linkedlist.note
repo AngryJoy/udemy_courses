@@ -1,0 +1,17 @@
+# abstract data types vs. data structures
+abstract data types: stack, queue
+data structure: array, linked list
+
+# linked list application in real world
+1) windows photo viewer: switch from one photo to next or vice versa
+2) blockchains (BitCoin): blockchain is basically a linked list with hash-pointers, each node has 2 hash values, own hash and the hash value of **previous** block 
+
+# linked list vs. array
+key elements for these two different structures:
+1) linked list: each node stores the data & reference, which consumes more memory than array; and the head of linked list is known while the end of the linked list is unknown in advance unless traversing the whole linked list
+2) array: indexed values, can access the value with index with O(1) complexity
+
+# when to use which
+1) insert at the beginning: O(1) complexity for linked list vs. O(N) for array, as insertion a new data into array requires other elements to move forward and the whole array to be rebuilt
+2) insert at the end: O(N) complexity for linked list vs. O(1) for array as the indices don't need to be changed just increasing the index one more
+3) search for a value: O(N) for linked list as traversing required

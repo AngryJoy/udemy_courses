@@ -1,0 +1,38 @@
+# "call stack"
+it stores all the methods, local variables functions of a computer programme
+local variables: on the stack first then lost (pop) after returned
+# stack memory
+limited in size but fast access, store local variables
+
+stack overflow vs. recursive algorithm
+stack the calls first and then calculate back the subtitute solutions
+
+Last In First Out rule
+pop(), push(), peek()
+
+e.g. factorial(4)
+factorial(1) = 1 # which will hit the base case
+factorial(2) = 2*factorial(1)
+factorial(3) = 3*factorial(2)
+factorial(4) = 4*factorial(3)
+
+# stack applications
+1) undo
+2) go back in web browsers
+3) store local variables and functions
+
+# heap memory
+memory leak
+
+no size limits but slow access, store objects
+
+
+# queue
+First In First Out
+enqueue(), dequeue(), peek()
+
+enqueue: add the item to the end of the queue
+dequeue: remove the item at the beginning of the queue
+peek: check the item at the **beginning** of the queue
+
+applications: IO buffers, CPU schedulling

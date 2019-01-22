@@ -1,0 +1,1 @@
+# double linked list, which can be traversed forward and backward
